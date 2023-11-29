@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  font-size: 1.1rem;
+  height: auto;
+  left: 0;
+  padding: 10px 2px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(12, 2, 2);
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: rgb(9, 1, 1);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.top {
+  margin-top: 100px;
+}
+.footer {
+  background-color: black;
+}
+.fab {
+  padding: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.footer-div,
+.footer-box {
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+@media (max-width: 425px) {
+  .navdiv {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+  }
+  .logo a {
+    font-size: 1.7rem;
+  }
+  li a {
+    font-size: 0.8rem;
+  }
+
+  .top {
+    margin-top: 60px;
+  }
+  .footer-div {
+    display: inline-block;
+    text-align: center;
+    max-width: 95%;
+  }
+  .footer-box {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .navdiv {
+    display: inline-block;
+    text-align: center;
+    margin-left: 24px;
+  }
+  .logo a {
+    font-size: 1.6rem;
+  }
+  li a {
+    font-size: 0.7rem;
+  }
+
+  .top {
+    margin-top: 60px;
+  }
+  .footer-div {
+    text-align: center;
+    max-width: 95%;
+    display: inline-block;
+  }
+  .footer-box {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .navdiv {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .logo a {
+    font-size: 1.7rem;
+  }
+  li a {
+    font-size: 0.8rem;
+  }
+
+  .top {
+    margin-top: 60px;
+  }
+  .footer-div {
+    display: inline-block;
+    text-align: center;
+    max-width: 95%;
+  }
+  .footer-box {
+    display: inline-block;
+    text-align: center;
+  }
+}
