@@ -55,20 +55,21 @@ button a {
 .top {
   margin-top: 100px;
 }
-.footer {
-  background-color: black;
-}
+
 .fab {
   padding: 0 10px;
   font-size: 1rem;
   cursor: pointer;
 }
-.footer-div,
+.footer-div{
+  max-width: 70%;
+  margin: 40px auto;
+
+}
 .footer-box {
   max-width: 70%;
-  margin: 20px auto;
+  margin: 40px auto;
 }
-
 @media (max-width: 425px) {
   .navdiv {
     display: inline-block;
@@ -86,12 +87,42 @@ button a {
     margin-top: 60px;
   }
   .footer-div {
-    display: inline-block;
     text-align: center;
     max-width: 95%;
+    display: inline-block;
+    margin-left: 10px;
   }
   .footer-box {
     display: inline-block;
+    margin-left: 76px;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .navdiv {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .logo a {
+    font-size: 1.7rem;
+  }
+  li a {
+    font-size: 0.8rem;
+  }
+
+  .top {
+    margin-top: 60px;
+  }
+  .footer-div {
+    text-align: center;
+    max-width: 95%;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  .footer-box {
+    display: inline-block;
+    margin-left: 65px;
     text-align: center;
   }
 }
@@ -115,35 +146,12 @@ button a {
     text-align: center;
     max-width: 95%;
     display: inline-block;
+    margin-left: 6px;
   }
   .footer-box {
     display: inline-block;
+    margin-left: 46px;
     text-align: center;
   }
 }
-@media (max-width: 375px) {
-  .navdiv {
-    display: inline-block;
-    text-align: center;
-    margin-left: 40px;
-  }
-  .logo a {
-    font-size: 1.7rem;
-  }
-  li a {
-    font-size: 0.8rem;
-  }
 
-  .top {
-    margin-top: 60px;
-  }
-  .footer-div {
-    display: inline-block;
-    text-align: center;
-    max-width: 95%;
-  }
-  .footer-box {
-    display: inline-block;
-    text-align: center;
-  }
-}
