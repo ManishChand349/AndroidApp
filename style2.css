@@ -63,6 +63,7 @@ button a {
 }
 .footer{
   background-color: rgb(0, 0, 1);
+  margin-top: 2px;
 }
 .footer-div{
   max-width: 100%;
